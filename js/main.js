@@ -237,7 +237,8 @@ $('.scroll-me').bind("click", function(e) {
 });
 
 var X00Gems = ['2,500 Gems', '6,500 Gems', '14,000 Gems'];
-var X00CF = ['img/cf/UK.png', 'img/cf/US.png', 'img/cf/Germany.png', 'img/cf/Netherlands.png', 'img/cf/Sweden.png', 'img/cf/Australia.png', 'img/cf/France.png', 'img/cf/Switzerland.png'];
+//var X00CF = ['img/cf/UK.png', 'img/cf/US.png', 'img/cf/Germany.png', 'img/cf/Netherlands.png', 'img/cf/Sweden.png', 'img/cf/Australia.png', 'img/cf/France.png', 'img/cf/Switzerland.png'];
+var X00CF = ['img/cf/Australia.png', 'img/cf/Australia.png', 'img/cf/Australia.png', 'img/cf/Australia.png', 'img/cf/Australia.png', 'img/cf/Australia.png', 'img/cf/Australia.png', 'img/cf/Australia.png'];
 
 function X00Random(X00Minimum, X00Maximum) {
     return Math.floor((Math.random() * X00Maximum) + X00Minimum);
